@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
-  // Get the data from parent to child using @Input 
+  // Get the data from app.component parent to child using @Input 
 @Input() title = '';
 @Input() imageUrl ='';
 @Input() userName = '';
