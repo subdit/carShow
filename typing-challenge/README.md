@@ -72,3 +72,23 @@ Medthod to compare enteredText and randomText by a single letter
     return randomLetter === enteredLetter? 'correct' : 'incorrect';
   }   ```
 ````
+
+## styling methods
+
+Add the style to the Css file in different colors
+
+```.pendint {
+    color: gray;
+    ;
+}
+
+.correct {
+    color: green;
+
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+```
