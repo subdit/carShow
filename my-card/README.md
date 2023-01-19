@@ -6,6 +6,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Stylesheet
+
+Run `npm install bulma`
+Then import the bulma into style.css global configuration.
+https://bulma.io/documentation/form/input/
+
+## Hosting the application
+
+Run `npm install now`
+https://vercel.com/
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
